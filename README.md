@@ -23,7 +23,7 @@ Every target gets a clean copy of the ATF to start with and the required Cortex-
 To automatically build ATFs for a new platform, check the [documentation](https://trustedfirmware-a.readthedocs.io/en/latest/plat/index.html) on how to compile for your platform.
 A build target looks like this and is sourced as a bash-script:
 ```bash
-PLAT=rk3399
+PLAT=rk3308
 TARGET=bl31
 BINARY_PATH=bl31/bl31.elf
 ARCH=aarch64
